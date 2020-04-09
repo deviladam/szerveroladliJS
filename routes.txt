@@ -1,0 +1,13 @@
+﻿GET             / - főoldal
+
+GET             /tickets        -egy felhasználó jegyeinek listája
+GET + POST      /tickets/add/
+
+GET             /user
+GET + POST      /user/add
+GET             /user/del/:id
+GET + POST      /user/mod/:id
+GET             /userlist    -felhasználók listája
+
+GET + POST      /login
+GET             /logout

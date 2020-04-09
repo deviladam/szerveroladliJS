@@ -1,0 +1,33 @@
+<% include header %>
+<h2>Horgász regisztráció</h2>
+<form>
+
+    <div>
+        <label for="name">Felhasználónév:</label>
+        <input type="text" name="nev" id="name">
+        <label for="email">E-mail cím:</label>
+        <input type="text" name="nev" id="email">
+    </div>
+    <div>
+        <label for="pass">Jelszó:</label>
+        <input type="password" name="jelszo" id="pass">
+        <label for="repass">Jelszó újra:</label>
+        <input type="password" name="jelszo" id="repass">
+    </div>
+    <div>
+        <label for="birth">Születési dátum:</label>
+        <input class="datepicker" data-date-format="mm/dd/yyyy" id="birth">
+    </div>
+    <div class="form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" value="">
+            Egyetértek a használási feltételekkel
+        </label>
+    </div>
+    <div>
+        <a class="btn btn-primary" href="/">Regisztráció</a>
+        <a class="btn btn-primary" href="/">Mégse</a>
+    </div>
+
+</form>
+<% include footer %>

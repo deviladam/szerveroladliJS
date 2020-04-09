@@ -1,0 +1,23 @@
+<% include header %>
+<h2>Horgász</h2>
+<form>
+    <div>
+        <label for="from">Ettől:</label>
+        <input class="datepicker" data-date-format="mm/dd/yyyy" id="from">
+        <label for="to">Eddig:</label>
+        <input class="datepicker" data-date-format="mm/dd/yyyy" id="to">
+    </div>
+    <div>
+        <label for="rodenum">Botok száma:</label>
+        <select class="form-control" id="rodenum">
+            <option>Egy botos jegy</option>
+            <option>Kettő botos jegy</option>
+
+        </select>
+    </div>
+    <div>Jelenlegi ár: 123 egység pénz</div>
+
+    <a class="btn btn-primary" href="/user">Fizet</a>
+    <a class="btn btn-primary" href="/user">Mégse</a>
+</form>
+<% include footer %>
